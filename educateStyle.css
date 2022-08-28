@@ -1,19 +1,51 @@
 body {
     background-color: lightgrey;
-
+    font-family: 'Inter', sans-serif;
 }
 
 header {
     background-color: darkgray;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    /*font-weight: 400;*/
 }
 
 div#nav1 {
     display: flex;
     justify-content: space-around;
-}
-a.floorLink:link{
-    color: white;
+    align-items: center;
+    height: 25vw
+    
 
+}
+a.floorLink:link, a.floortlink:hover, a.floorlink:active, a.floorlink:visited{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: xx-large;
+    width:45%;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 7.5vw;
+    padding-bottom: 7.5vw;
+    text-decoration: none;
+}
+
+a.floorLink:hover {
+    font-size: 4em;
+    padding-top:5vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+a.floorLink:active {
+    /*font-size: 2em; */
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    padding-left: 0vw;
+    padding-right:0vw;
+    
 }
 
 a#tutorfLink {
@@ -33,4 +65,9 @@ footer {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+
+* {
+    border: 2px dotted brown;
 }
