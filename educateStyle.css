@@ -147,6 +147,10 @@ a.roomLink:link{
     padding-bottom: 1%;
 }
 
+a.roomLink:visited{
+    color:gainsboro
+}
+
 a.roomLink#logo:link{
     text-decoration:none
 }
