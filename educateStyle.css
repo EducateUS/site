@@ -1,24 +1,45 @@
 body {
-    background-color: lightgrey;
+    background-color: whitesmoke;
     font-family: 'Inter', sans-serif;
+    margin-top:15vh;
+    color:dimgray;
+    margin-left: 10%;
+    margin-right: 10%
 }
 
-header {
+h1.mainTitle {
     background-color: darkgray;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
+    color:black;
+    margin-top:0%;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-size:xx-large
     /*font-weight: 400;*/
+}
+
+body#home{
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:0%
 }
 
 div#nav1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 25vw
-    
-
+    height: 25vw;
+    margin-left:5%;
+    margin-right:5%;
 }
+
+section.generalInfo{
+    margin-left: 10%;
+    margin-top: 5%
+}
+
 a.floorLink:link, a.floortlink:hover, a.floorlink:active, a.floorlink:visited{
     color: white;
     font-family: 'Patrick Hand', cursive;
@@ -50,24 +71,106 @@ a.floorLink:active {
 
 a#tutorfLink {
     background-color: #B22234;
+    color:gainsboro
 }
 a#SATfLink {
     background-color: #3b3c6e;
+    color:gainsboro
+}
+
+img#satStockPhoto {
+    height:40vh;
+    margin-left:18%;
+    border:10px solid dimgray;
+}
+
+p.attribution{
+    font-size: 0.7em;
+    margin-top:0%;
+    margin-left: 18%;
+    width:60%;
 }
 
 
 footer {
     background-color: darkgrey;
     display: flex;
-    position: fixed;
+    font-size: 0.7em;
     bottom: 0%;
-    padding-bottom: 3%;
-    width: 100%;
+    padding-top:1.5%;
+    padding-bottom: 2%;
+    width: 124.8%;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items:center;
+    margin-left: -12.3%;
+    margin-right: -12.5%;
+    margin-bottom: -3%;
+    margin-top:5%
 }
 
 
-* {
+header.titlebar{
+    position:fixed;
+    display:flex;
+    width:100%;
+    top: 0%;
+    left: 0%;
+    justify-content:space-between;
+    background-color:#B22234;
+    height: 6vh;
+    color:gainsboro;
+    font-family: 'Inter', sans-serif;}
+
+header.navbar{
+    position:fixed;
+    display:flex;
+    width: 100%;
+    left:0%;
+    top:6vh;
+    justify-content:space-around;
+    background-color:#3b3c6e;
+    color:gainsboro;
+    font-family: 'Inter', sans-serif;
+}
+
+a.roomLink#title{
+    color:gainsboro;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    text-decoration: none
+}
+
+a.roomLink:link{
+    color:gainsboro;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a.roomLink#logo:link{
+    text-decoration:none
+}
+
+table{
+    margin:5%;
+    border: 1.5px solid darkgray
+}
+
+td{
+    padding-right:5vw;
+    border: 1px solid darkgray
+}
+
+td.tableHead{
+    background-color:gainsboro
+}
+
+blockquote{
+    color:slategrey;
+    font-style:italic;
+    font-size:0.9em;
+}
+
+*/{
     border: 2px dotted brown;
 }
