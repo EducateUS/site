@@ -1,0 +1,36 @@
+body {
+    background-color: lightgrey;
+
+}
+
+header {
+    background-color: darkgray;
+}
+
+div#nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+a.floorLink:link{
+    color: white;
+
+}
+
+a#tutorfLink {
+    background-color: #B22234;
+}
+a#SATfLink {
+    background-color: #3b3c6e;
+}
+
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    padding-bottom: 3%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
