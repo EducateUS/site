@@ -78,11 +78,13 @@ a#SATfLink {
     color:gainsboro
 }
 
-img#satStockPhoto {
+img#satStockPhoto,
+img#tutorStockPhoto  {
     height:40vh;
     margin-left:18%;
     border:10px solid dimgray;
 }
+
 
 p.attribution{
     font-size: 0.7em;
