@@ -7,6 +7,7 @@ body {
     margin-right: 10%
 }
 
+/**************************************** HOME PAGE *****************************/
 h1.mainTitle {
     background-color: darkgray;
     text-align: center;
@@ -20,12 +21,6 @@ h1.mainTitle {
     /*font-weight: 400;*/
 }
 
-body#home{
-    margin-top:0%;
-    margin-left:0%;
-    margin-right:0%
-}
-
 div#nav1 {
     display: flex;
     justify-content: space-around;
@@ -35,11 +30,70 @@ div#nav1 {
     margin-right:5%;
 }
 
+body#home{
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:0%
+}
+
 section.generalInfo{
     margin-left: 10%;
     margin-top: 5%
 }
 
+/*************************** HEADER BARS **************************/
+
+header.titlebar{
+    position:fixed;
+    display:flex;
+    width:100%;
+    top: 0%;
+    left: 0%;
+    justify-content:space-between;
+    background-color:#B22234;
+    height: 6vh;
+    color:gainsboro;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vh;
+}
+   
+
+header.navbar{
+    position:fixed;
+    display:flex;
+    width: 100%;
+    left:0%;
+    top:6vh;
+    justify-content:space-around;
+    background-color:#3b3c6e;
+    color:gainsboro;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/***************************** FOOTERS ***********************************/
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    font-size: 0.7em;
+    bottom: 0%;
+    padding-top:1.5%;
+    padding-bottom: 2%;
+    width: 124.8%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: -12.3%;
+    margin-right: -12.5%;
+    margin-bottom: -3%;
+    margin-top:5%
+}
+
+/****************************** LINKS *************************************/
+
+/*                        floor link                            */
 a.floorLink:link, a.floortlink:hover, a.floorlink:active, a.floorlink:visited{
     color: white;
     font-family: 'Patrick Hand', cursive;
@@ -78,63 +132,7 @@ a#SATfLink {
     color:gainsboro
 }
 
-img#satStockPhoto,
-img#tutorStockPhoto  {
-    height:40vh;
-    margin-left:18%;
-    border:10px solid dimgray;
-}
-
-
-p.attribution{
-    font-size: 0.7em;
-    margin-top:0%;
-    margin-left: 18%;
-    width:60%;
-}
-
-
-footer {
-    background-color: darkgrey;
-    display: flex;
-    font-size: 0.7em;
-    bottom: 0%;
-    padding-top:1.5%;
-    padding-bottom: 2%;
-    width: 124.8%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:center;
-    margin-left: -12.3%;
-    margin-right: -12.5%;
-    margin-bottom: -3%;
-    margin-top:5%
-}
-
-
-header.titlebar{
-    position:fixed;
-    display:flex;
-    width:100%;
-    top: 0%;
-    left: 0%;
-    justify-content:space-between;
-    background-color:#B22234;
-    height: 6vh;
-    color:gainsboro;
-    font-family: 'Inter', sans-serif;}
-
-header.navbar{
-    position:fixed;
-    display:flex;
-    width: 100%;
-    left:0%;
-    top:6vh;
-    justify-content:space-around;
-    background-color:#3b3c6e;
-    color:gainsboro;
-    font-family: 'Inter', sans-serif;
-}
+/*                         room link                      */
 
 a.roomLink#title{
     color:gainsboro;
@@ -156,6 +154,40 @@ a.roomLink:visited{
 a.roomLink#logo:link{
     text-decoration:none
 }
+
+
+
+
+
+/********************************** IMAGES ***************************/
+
+img#satStockPhoto,
+img#tutorStockPhoto {
+    height:40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:10px solid dimgray;
+}
+
+
+p.attribution{
+    font-size: 0.7em;
+    margin-top:0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+}
+
+img#flyer {
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/****************************** Tables and OTHER ********************/
 
 table{
     margin:5%;
