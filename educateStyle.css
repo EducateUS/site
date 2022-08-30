@@ -170,6 +170,10 @@ img#tutorStockPhoto {
     border:10px solid dimgray;
 }
 
+img.logo {
+    height: 6vh;
+    background-color: gainsboro;
+}
 
 p.attribution{
     font-size: 0.7em;
