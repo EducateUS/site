@@ -162,12 +162,20 @@ a.roomLink#logo:link{
 /********************************** IMAGES ***************************/
 
 img#satStockPhoto,
-img#tutorStockPhoto {
+img#tutorStockPhoto{
     height:40vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border:10px solid dimgray;
+}
+
+img#octoberCalendar{
+    height:20vh;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid dimgray
 }
 
 img.logo {
