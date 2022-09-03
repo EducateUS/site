@@ -69,7 +69,7 @@ header.navbar{
     color:gainsboro;
     font-family: 'Inter', sans-serif;
     padding-top: 2%;
-    padding-bottom: 2%
+    padding-bottom: 2%;
 }
 
 header.navbar div.dropDownItem a{
@@ -78,7 +78,7 @@ header.navbar div.dropDownItem a{
     color:gainsboro;
     background-color: #3b3c6e;
     width:fit-content;
-    padding-top: 5%
+    padding-top:0.5vh
 }
 
 header.navbar:hover div.dropDownItem a{
@@ -171,8 +171,17 @@ a.roomLink#logo:link{
     text-decoration:none
 }
 
+div.nextPage{
+    margin-top:5%;
+    text-align: right;
+    font-style: italic;
+}
 
-
+div.nextPage a,visited{
+    color:dimgray;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 /********************************** IMAGES ***************************/
@@ -205,7 +214,13 @@ p.attribution{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:60%;
+    width:50vh;
+}
+
+p.attribution a{
+    color:slategray;
+    font-weight: bold;
+    text-decoration: none
 }
 
 img#flyer {
@@ -235,6 +250,10 @@ blockquote{
     color:slategrey;
     font-style:italic;
     font-size:0.9em;
+}
+
+div.websiteLinks a{
+    color:#3b3c6e
 }
 
 /*/{
