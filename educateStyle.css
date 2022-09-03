@@ -256,6 +256,18 @@ div.websiteLinks a{
     color:#3b3c6e
 }
 
+p.sidebar{
+    background-color:gainsboro;
+    color:slategray;
+    border-radius:6px;
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-left:1px solid slategray;
+    border-right:1px solid slategray
+}
+
 /*/{
     border: 2px dotted brown;
 }
