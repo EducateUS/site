@@ -256,7 +256,7 @@ div.websiteLinks a{
     color:#3b3c6e
 }
 
-p.sidebar{
+p.sidebar, blockquote.scoreQuotes{
     background-color:gainsboro;
     color:slategray;
     border-radius:6px;
@@ -265,8 +265,12 @@ p.sidebar{
     padding-top:1%;
     padding-bottom:1%;
     border-left:1px solid slategray;
-    border-right:1px solid slategray
+    border-right:1px solid slategray;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto
 }
+
 
 /*/{
     border: 2px dotted brown;
