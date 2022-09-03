@@ -68,7 +68,23 @@ header.navbar{
     background-color:#3b3c6e;
     color:gainsboro;
     font-family: 'Inter', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%
 }
+
+header.navbar div.dropDownItem a{
+    display:none;
+    text-decoration:none;
+    color:gainsboro;
+    background-color: #3b3c6e;
+    width:fit-content;
+    padding-top: 5%
+}
+
+header.navbar:hover div.dropDownItem a{
+    display:block
+}
+
 
 
 
