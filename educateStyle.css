@@ -177,7 +177,7 @@ div.nextPage{
     font-style: italic;
 }
 
-div.nextPage a,visited{
+div.nextPage a{
     color:dimgray;
     text-decoration: none;
     font-weight: bold;
