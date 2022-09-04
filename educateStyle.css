@@ -90,10 +90,6 @@ header.navbar div.dropDownItem a{
     /*height: fit-content;*/
 
 }
-header.navbar div.dropDownItem {
-    
-
-}
 
 header.navbar:hover div.dropDownItem a{
     display:block;
