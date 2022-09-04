@@ -282,6 +282,29 @@ p.sidebar, blockquote.scoreQuotes{
 }
 
 
+
+@media (orientation: landscape) {
+
+}
+
+@media (orientation: portrait) {
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    footer {
+        width: 106.2%;
+        margin-left: -3%;
+    }
+    header.navbar div.dropDownItem a{
+        padding: 10%;
+    }
+}
+
+
+
+
 /*{
     border: 2px dotted black;
 }
