@@ -205,12 +205,19 @@ img#tutorStockPhoto{
     border:10px solid dimgray;
 }
 
-img#octoberCalendar{
-    height:20vh;
+img#mathReference, img#mathGrid{
+    width:55%;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    border: 2px solid dimgray;
+    margin-top:5%;
+    margin-bottom:5%;
+    border: 3px solid dimgray;
+    border-radius: 2px
+}
+
+img#mathGrid{
+    width:45%
 }
 
 img.logo {
