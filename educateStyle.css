@@ -289,6 +289,53 @@ p.sidebar, blockquote.scoreQuotes{
 }
 
 
+
+@media (orientation: landscape) {
+
+}
+
+@media (orientation: portrait) {
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    footer {
+        width: 106.2%;
+        margin-left: -3%;
+    }
+    header.navbar div.dropDownItem a{
+        padding: 10%;
+    }
+
+}
+
+@media screen and (orientation: portrait) and (max-width:850px) {
+    
+img#satStockPhoto,
+img#tutorStockPhoto{
+    width:60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid dimgray;
+}
+
+p.attribution{
+    font-size: 0.5em;
+    width:60vw;
+}
+
+img#flyer {
+    width: 60vw;
+    height: auto;
+}
+
+}
+
+
+
 /*{
     border: 2px dotted black;
 }
