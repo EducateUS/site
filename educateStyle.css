@@ -247,6 +247,37 @@ img#flyer {
     margin-right: auto;
 }
 
+
+/*************************** Get to Know the Tutors ******************/
+section#getToKnowUs {
+    background-color:#3b3c6e;
+    display: flex;
+    flex-direction: column;
+    color:gainsboro
+}
+
+div.bio {
+    padding-bottom: 3%;
+}
+
+div.name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+div.position {
+    font-size: .75em;
+}
+
+img.headshot {
+    width: 20%
+}
+img#ayush, img#zoe {
+    float: left;
+}
+img#austin, img#jiya {
+    float: right;
+}
+
 /****************************** Tables and OTHER ********************/
 
 table{
@@ -336,6 +367,6 @@ img#flyer {
 
 
 
-/*{
+*{
     border: 2px dotted black;
 }
