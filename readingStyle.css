@@ -1,0 +1,8 @@
+.dontshow {
+    display:none;
+}
+
+li#hidden{
+    color:slategray;
+    font-weight:bold
+}
