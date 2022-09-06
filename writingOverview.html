@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SAT&reg; Writing Section Overview</title>
     <link rel="stylesheet" href="educateStyle.css">
+    <link rel="stylesheet" href="writingStyle.css">
+    <script src="writingScript.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
     </style>
+    
 </head>
 
 <body>
@@ -22,7 +25,7 @@
         <div><a class="roomLink" href="ourResourcesAndEvents.html">Resources and Events</a></div>
         <div><a class="roomLink" href="testIntro.html">Get to Know the Test</a>
             <div class="dropDownItem"><a href=mathOverview.html>Math</a></div>
-            <div class="dropDownItem"><a href=readingOverview.html>Reading</a></a></div>
+            <div class="dropDownItem"><a href=readingOverview.html>Reading</a></div>
             <div class="dropDownItem"><a href=writingOverview.html>Writing</a></div>
         </div>
         <div><a class="roomLink" href="satTips.html">Tips &amp; Tricks</a>
@@ -37,60 +40,108 @@
 
     <p>Writing Section questions are paired with a passage, like in the Reading Section. However, Writing questions progress along with the passage and ask you to make edits to it.</p>
 
-    <p>Most Writing Section questions fall into these categories:</p>
+    <p>Most Writing Section questions fall into the below categories. Click on a category to learn more.</p>
 
     <ul>
         <li>Expression of Ideas</li>
         <ul>
-            <li>Development</li>
-            <ul>
-                <li>Proposition</li>
-                <li>Support</li>
-                <li>Focus</li>
-                <li>Quantitative Information</li>
+            <li id="hidden">Development</li>
+            <ul id="hiddentext" class="dontshow">
+                <li>Proposition: revising claims, topic sentences, etc. in order to accurately convey arguments and ideas</li>
+                <li>Support: revising information and ideas intended to support claims</li>
+                <li>Focus: revising information and ideas as related to topic and purpose</li>
+                <li>Quantitative Information: relate numerical information in text</li>
             </ul>
-            <li>Organization</li>
-            <ul>
-                <li>Logical Sequence</li>
-                <li>Introductions, Conclusions, and Transitions</li>
+            <li id="hidden2">Organization</li>
+            <ul id="hiddentext2" class="dontshow">
+                <li>Logical Sequence: revise text to ensure information is presented in the most logical order</li>
+                <li>Introductions, Conclusions, and Transitions: revise text to improve beginning/ending and effectively use transition words and phrases</li>
             </ul>
-            <li>Effective Language Use</li>
-            <ul>
-                <li>Precision</li>
-                <li>Concision</li>
-                <li>Style and Tone</li>
-                <li>Syntax</li>
+            <li id="hidden3">Effective Language Use</li>
+            <ul id="hiddentext3" class="dontshow">
+                <li>Precision: revise text to improve exactness of word choice</li>
+                <li>Concision: revise text to eliminate wordiness and redundancy</li>
+                <li>Style and Tone: revise text to ensure consistency or match to purpose</li>
+                <li>Syntax: use various sentence structures to accomplish rhetorical purposes</li>
             </ul>
         </ul>
         <li>Standard English Conventions</li>
         <ul>
-            <li>Sentence Structure</li>
-            <ul>
-                <li>Sentence Formation</li>
-                <li>Innapropriate Shifts in Construction</li>
+            <li id="hidden4">Sentence Structure</li>
+            <ul id="hiddentext4" class="dontshow">
+                <li>Sentence Formation: editing text to ensure grammatically complete and standard sentences</li>
+                <li>Innapropriate Shifts in Construction: editing text to correct inappropriate shifts in verb tense, voice, mood, pronoun person, and number</li>
             </ul>
-            <li>Conventions of Usage</li>
-            <ul>
-                <li>Pronouns</li>
-                <li>Possessive Determiners</li>
-                <li>Agreement</li>
-                <li>Frequently Confused Words</li>
-                <li>Logical Comparison</li>
-                <li>Conventional Expression</li>
+            <li id="hidden5">Conventions of Usage</li>
+            <ul id="hiddentext5" class="dontshow">
+                <li>Pronouns: proper use of pronouns, including correcting unclear or amiguous antecedents</li>
+                <li>Possessive Determiners: recognize when words like "its" and "it's" are confused with each other</li>
+                <li>Agreement: ensure grammatical agreement between pronouns and antecedents, subjects and verbs, and nouns</li>
+                <li>Frequently Confused Words: recognize and correct instances in which words like accept/except have been confused with each other</li>
+                <li>Logical Comparison: recognize and correct comparison of unlike terms</li>
+                <li>Conventional Expression: recognize and correct writing inconsistent with standard English conventions</li>
             </ul>
-            <li>Conventions of Punctuation</li>
-            <ul>
+            <li id="hidden6">Conventions of Punctuation</li>
+            <ul id="hiddentext6" class="dontshow">
                 <li>End-of-sentence Punctuation</li>
-                <li>Within-sentence Punctuation</li>
+                <li>Within-sentence Punctuation: correct use of colons, semicolons, and dashes</li>
                 <li>Possessive Nouns and Pronouns</li>
-                <li>Items in a Series</li>
-                <li>Nonrestrictive and Parenthetical Elements</li>
+                <li>Items in a Series: correct use of commas and semicolons</li>
+                <li>Nonrestrictive and Parenthetical Elements: correct use of commas, parentheses, and dashes to set off sentence elements</li>
                 <li>Unnecessary Punctuation</li>
             </ul>
         </ul>
     </ul>
 
     <div class="websiteLinks">Learn More: <a href="https://satsuite.collegeboard.org/media/pdf/test-specifications-redesigned-sat-1.pdf">SAT&reg; Test Specifications</a>, <a href="https://www.khanacademy.org/test-prep/sat/x0a8c2e5f:untitled-615/x0a8c2e5f:sat-content-and-format/a/redesigned-sat-content-and-format">Khan Academy Website</a></div>
+
+    <h2>Try Some Questions!</h2>
+
+    <div id="expand" class="question">
+        <strong>Development Question &darr;</strong>
+        <div class="dontshow" id="1"><img id="developmentQuestion" src="Images/developmentQuestion.jpg" alt="passage from SAT writing section"></div>
+        <div class="dontshow" id="2">Which choice most effectively establishes the main topic of the paragraph?</div>
+        <div class="dontshow" id="3"><em>Source: SAT Test Specifications</em></div>
+    </div>
+
+    <div class="dontshow" id="4">
+        <div class="answerChoice"><img class="answerImage" id="developmentA" src="Images/developmentAnswerA.jpg" alt="Answer Choice A"></div>
+        <div class="answerChoice"><img class="answerImage" id="developmentB" src="Images/developmentAnswerB.jpg" alt="Answer Choice B"></div>
+        <div class="answerChoice"><img class="answerImage" id="developmentC" src="Images/developmentAnswerC.jpg" alt="Answer Choice C"></div>
+        <div class="answerChoice"><img class="answerImage" id="developmentD" src="Images/developmentAnswerD.jpg" alt="Answer Choice D"></div>
+    </div>
+
+    <div id="correctAnswer" class="dontshow">
+        <div>Correct! This answer choice clearly establishes the main topic.</div>
+    </div>
+
+    <div id="incorrectAnswer" class="dontshow">
+        <div id="answerMessage">This is not the best choice because it is not clearly related to the topic of the paragraph.</div>
+        <div class="exit">[ X ]</div>
+    </div>
+
+    <div id="expand2" class="question">
+        <strong>Sentence Structure Question &darr;</strong>
+        <div class="dontshow" id="s1"><img id="sentenceStructureQuestion" src="Images/sentenceStructureQuestion.jpg" alt="passage 2 from SAT writing"></div>
+        <div class="dontshow" id="s2">Choose the answer that most effectively improves the quality of writing in the passage or that makes the passage conform to the conventions of standard written English.</div>
+        <div class="dontshow" id="s3"><em>Source: SAT Test Specifications</em></div>
+    </div>
+
+    <div class="dontshow" id="s4">
+        <div class="answerChoice"><img class="answerImage2" id="sentenceA" src="Images/sentenceAnswerA.jpg" alt="Answer Choice A"></div>
+        <div class="answerChoice"><img class="answerImage2" id="sentenceB" src="Images/sentenceAnswerB.jpg" alt="Answer Choice B"></div>
+        <div class="answerChoice"><img class="answerImage2" id="sentenceC" src="Images/sentenceAnswerC.jpg" alt="Answer Choice C"></div>
+        <div class="answerChoice"><img class="answerImage2" id="sentenceD" src="Images/sentenceAnswerD.jpg" alt="Answer Choice D"></div>
+    </div>
+
+    <div id="correctAnswer2" class="dontshow">
+        <div>Correct! Answer Choice C maintains parallelism with "evaluating," "assessing," and "improving."</div>
+    </div>
+
+    <div id="incorrectAnswer2" class="dontshow">
+        <div id="answerMessage2">This is not the best answer because it does not maintain parallelism with "evaluating," "assessing," and "improving."</div>
+        <div class="exit">[ X ]</div>
+    </div>
 
     <div class="nextPage">
         <div><a href="writingTips.html">Next: Writing Section Tips --></a></div> 

@@ -1,8 +1,12 @@
-.dontshow {
-    display:none;
+.dontshow{
+    display:none
 }
 
-li#hidden{
+li#hidden, li#hidden2, li#hidden3{
     color:slategray;
-    font-weight:bold
 }
+
+li#hidden:hover, li#hidden2:hover, li#hidden3:hover{
+    font-weight:bold;
+}
+
