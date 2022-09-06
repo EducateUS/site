@@ -136,12 +136,38 @@ function collapseClick6() {
     thetitle6.addEventListener("click", onClick6)
 }
 
-choiceA = document.getElementById("developmentA");
-
-/*choiceA.addEventListener("click", onClick);
-
+/* Development Question */
 incorrect = document.getElementById("incorrectAnswer");
+correct = document.getElementById("correctAnswer")
 
-function onClick() {
+function onClickIncorrect() {
     incorrect.classList.remove("dontshow");
-}*/
+    incorrect.classList.add("answer");
+    incorrect.style.backgroundColor = "#3b3c6e";
+}
+
+function onClickCorrect() {
+    correct.classList.remove("dontshow");
+    correct.classList.add("answer");
+    correct.style.backgroundColor = "#3b3c6e"
+}
+
+choiceA = document.getElementById("developmentA");
+choiceA.addEventListener("click", onClickIncorrect);
+
+choiceB = document.getElementById("developmentB");
+choiceB.addEventListener("click", onClickIncorrect);
+
+choiceC = document.getElementById("developmentC");
+choiceC.addEventListener("click", onClickCorrect);
+
+choiceD = document.getElementById("developmentD");
+choiceD.addEventListener("click", onClickIncorrect);
+
+incorrect.addEventListener("click", onClickOff)
+
+function onClickOff () {
+    incorrect.classList.remove("answer");
+    incorrect.classList.add("dontshow")
+}
+
