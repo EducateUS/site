@@ -25,27 +25,65 @@ h1.mainTitle {
     /*font-weight: 400;*/
 }
 
-div#nav1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 25vw;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top: 15%;
+
+img#group1 {
+    width:50%;
+    display: block;
+    padding-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body#home{
-    margin-top: 10%;
-    /*margin-left:0%;
-    margin-right:0% */
-}
 
 section.generalInfo{
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%
 }
+
+section#fancyThing {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+}
+
+section.fancyThing {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color: gainsboro;
+
+}
+
+section#tutorIntro {
+    background-image: url(Images/groupPhoto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    background-color: #B22234;
+}
+section#satIntro {
+    background-image: url(Images/satStockPhoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#3b3c6e;
+}
+
+
+/* div#nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 10%;
+} */
+
+
+
 
 /*************************** HEADER BARS **************************/
 
@@ -146,14 +184,6 @@ a.floorLink:hover {
     padding-left: 2vw;
     padding-right: 2vw; */
     box-shadow: 4px 4px grey
-}
-a.floorLink:active {
-    /*font-size: 2em; */
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
-    padding-left: 0vw;
-    padding-right:0vw;
-    
 }
 
 a#tutorfLink {
@@ -482,6 +512,6 @@ img#flyer {
 
 
 
-/*{
+*{
     border: 2px dotted black;
 }
