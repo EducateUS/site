@@ -1,4 +1,4 @@
-/* First Bullet */
+/***************************  First Bullet *********************/
 thetitle = document.getElementById("hidden");
 
 thetitle.addEventListener("click", onClick);
@@ -21,7 +21,7 @@ function collapseClick() {
     thetitle.addEventListener("click", onClick)
 }
 
-/* Second Bullet */
+/*************************** Second Bullet ********************/
 thetitle2 = document.getElementById("hidden2");
 
 thetitle2.addEventListener("click", onClick2);
@@ -44,7 +44,7 @@ function collapseClick2() {
     thetitle2.addEventListener("click", onClick2)
 }
 
-/* Third Bullet */
+/******************************** Third Bullet *********************/
 thetitle3 = document.getElementById("hidden3");
 
 thetitle3.addEventListener("click", onClick3);
@@ -67,7 +67,7 @@ function collapseClick3() {
     thetitle3.addEventListener("click", onClick3)
 }
 
-/* Fourth Bullet */
+/******************************** Fourth Bullet *******************/
 thetitle4 = document.getElementById("hidden4");
 
 thetitle4.addEventListener("click", onClick4);
@@ -90,7 +90,7 @@ function collapseClick4() {
     thetitle4.addEventListener("click", onClick4);
 }
 
-/* Fifth Bullet */
+/***************************** Fifth Bullet ********************/
 thetitle5 = document.getElementById("hidden5");
 
 thetitle5.addEventListener("click", onClick5);
@@ -113,7 +113,7 @@ function collapseClick5() {
     thetitle5.addEventListener("click", onClick5);
 }
 
-/* Sixth Bullet */
+/****************************** Sixth Bullet ***************/
 thetitle6 = document.getElementById("hidden6");
 
 thetitle6.addEventListener("click", onClick6);
@@ -136,7 +136,30 @@ function collapseClick6() {
     thetitle6.addEventListener("click", onClick6)
 }
 
-/* Development Question */
+
+/******************************** QUESTIONS ********************/
+/************************* Development Question *************/
+
+/*make question and answer choices appear*/
+expandQuestion = document.getElementById("expand");
+expandQuestion.addEventListener("click", expandClick);
+
+expand1 = document.getElementById("1");
+expand2 = document.getElementById("2");
+expand3 = document.getElementById("3");
+expand4 = document.getElementById("4");
+
+function expandClick() {
+    expand1.classList.toggle("dontshow");
+    expand1.classList.toggle("questionImage");
+    expand2.classList.toggle("dontshow");
+    expand3.classList.toggle("dontshow");
+    expand3.classList.toggle("questionCredit");
+    expand4.classList.toggle("dontshow");
+    expand4.classList.toggle("answer")
+} 
+
+/*make answer responses appear*/
 incorrect = document.getElementById("incorrectAnswer");
 correct = document.getElementById("correctAnswer")
 
@@ -165,9 +188,15 @@ choiceD = document.getElementById("developmentD");
 choiceD.addEventListener("click", onClickIncorrect);
 
 incorrect.addEventListener("click", onClickOff)
+correct.addEventListener("click", onClickOff)
 
 function onClickOff () {
     incorrect.classList.remove("answer");
-    incorrect.classList.add("dontshow")
+    incorrect.classList.add("dontshow");
+    
+    correct.classList.remove("answer");
+    correct.classList.add("dontshow");
 }
+
+
 
