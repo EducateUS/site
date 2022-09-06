@@ -198,5 +198,65 @@ function onClickOff () {
     correct.classList.add("dontshow");
 }
 
+/**************Sentence Structure Question******************/
+
+/*make question and answer choices appear*/
+expandQuestion2 = document.getElementById("expand2");
+expandQuestion2.addEventListener("click", expandClick2);
+
+expands1 = document.getElementById("s1");
+expands2 = document.getElementById("s2");
+expands3 = document.getElementById("s3");
+expands4 = document.getElementById("s4");
+
+function expandClick2() {
+    expands1.classList.toggle("dontshow");
+    expands1.classList.toggle("questionImage");
+    expands2.classList.toggle("dontshow");
+    expands3.classList.toggle("dontshow");
+    expands3.classList.toggle("questionCredit");
+    expands4.classList.toggle("dontshow");
+    expands4.classList.toggle("answer")
+} 
+
+/*make answer responses appear*/
+incorrect2 = document.getElementById("incorrectAnswer2");
+correct2 = document.getElementById("correctAnswer2")
+
+function onClickIncorrect2() {
+    incorrect2.classList.remove("dontshow");
+    incorrect2.classList.add("answer");
+    incorrect2.style.backgroundColor = "#3b3c6e";
+}
+
+function onClickCorrect2() {
+    correct2.classList.remove("dontshow");
+    correct2.classList.add("answer");
+    correct2.style.backgroundColor = "#3b3c6e"
+}
+
+choicesA = document.getElementById("sentenceA");
+choicesA.addEventListener("click", onClickIncorrect2);
+
+choicesB = document.getElementById("sentenceB");
+choicesB.addEventListener("click", onClickIncorrect2);
+
+choicesC = document.getElementById("sentenceC");
+choicesC.addEventListener("click", onClickCorrect2);
+
+choicesD = document.getElementById("sentenceD");
+choicesD.addEventListener("click", onClickIncorrect2);
+
+incorrect2.addEventListener("click", onClickOff2)
+correct2.addEventListener("click", onClickOff2)
+
+function onClickOff2 () {
+    incorrect2.classList.remove("answer");
+    incorrect2.classList.add("dontshow");
+    
+    correct2.classList.remove("answer");
+    correct2.classList.add("dontshow");
+}
+
 
 
