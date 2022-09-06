@@ -52,6 +52,7 @@ section#fancyThing {
 section.fancyThing {
     height: 50vh;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     color: gainsboro;
 
@@ -61,15 +62,23 @@ section#tutorIntro {
     background-image: url(Images/groupPhoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0%;
-    background-color: #B22234;
+    background-position: 0% 30%;
+    background-color: #B2223470;
+    background-blend-mode:overlay;
+    border: 3px solid #B22234;
+    border-radius: 10px;
 }
 section#satIntro {
     background-image: url(Images/satStockPhoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#3b3c6e;
+    background-blend-mode:overlay;
+    border: 3px solid #3b3c6e;
+    border-radius: 10px;
+
 }
+
 
 
 /* div#nav1 {
