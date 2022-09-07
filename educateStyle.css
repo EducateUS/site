@@ -566,7 +566,8 @@ p.attribution{
     width:60vw;
 }
 
-img#group1 {
+
+img#group1, img#flyer {
     width: 60vw;
     height: auto;
 }
