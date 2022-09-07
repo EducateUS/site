@@ -1,0 +1,15 @@
+div.tutorResults {
+    color: #B22234;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%
+}
+
+a.tutorLink {
+    color:#3b3c6e;
+}
+
+.dontshow{
+    display:none;
+}

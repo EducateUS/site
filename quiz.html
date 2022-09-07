@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="educateStyle.css">
+    <link rel="stylesheet" href="quizStyle.css">
 
+    <script src="quizScript.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Patrick+Hand&family=Poppins:wght@400;700;800;900&display=swap');
     </style>
@@ -31,9 +33,115 @@
     </header>
 
     <p class="generalInfo">This is a purely for fun quiz for students to engage
-        with their tutors. Fun questions will be used to determine which tutor 
-        students have most in common with
+        with their tutors. Fill out the questions below to find out which tutor you are most similar to!
     </p>
+
+    <div id="quizQuestions">
+        <div class="questionTitle">What is your favorite color?</div>
+        <div class="questionAnswers">
+            <input type="radio" name="color" value="blackcolor">Black
+            <input type="radio" name="color" value="redcolor">Red 
+            <input type="radio" name="color" value="purplecolor">Purple
+            <input type="radio" name="color" value="bluecolor">Blue
+        </div>
+        <div class="questionTitle">What is your favorite food?</div>
+        <div class="questionAnswers">
+            <input type="radio" name="food" value="chickenfood">Rotisserie Chicken
+            <input type="radio" name="food" value="wingsfood">Boneless Buffalo Wings
+            <input type="radio" name="food" value="macfood">Mac & Cheese
+            <input type="radio" name="food" value="cinnamonfood">Cinnamon Rolls
+        </div>
+        <div class="questionTitle">What is your favorite subject in school?</div>
+        <div class="questionAnswers">
+            <input type="radio" name="subject" value="sciencesubject">Science
+            <input type="radio" name="subject" value="chemsubject">Chemistry
+            <input type="radio" name="subject" value="mathsubject">Math
+            <input type="radio" name="subject" value="historysubject">History
+        </div>
+        <div class="questionTitle">What is your favorite book genre?</div>
+        <div class="questionAnswers">
+            <input type="radio" name="book" value="historicalbook">Historical Fiction
+            <input type="radio" name="book" value="dystopianbook">Dystopian
+            <input type="radio" name="book" value="creativebook">Creative Non-Fiction
+            <input type="radio" name="book" value="fictionbook">Fiction
+        </div>
+        <div class="questionTitle">What is your favorite superpower?</div>
+        <div class="questionAnswers">
+            <input type="radio" name="power" value="speedpower">Superspeed
+            <input type="radio" name="power" value="flightpower">Flight
+            <input type="radio" name="power" value="teleportpower">Teleportation
+            <input type="radio" name="power" value="xraypower">Superhearing & x-ray Vision
+        </div>
+    </div>
+
+    <button id="submitQuiz">Submit</button>
+
+    <div id="ayushResults" class="dontshow">
+        <em>The tutor you are most similar to is</em> &hellip;
+        <div class="tutorResults">Ayush!</div>
+        Learn more about him <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="austinResults" class="dontshow">
+        <em>The tutor you are most similar to is</em> &hellip;
+        <div class="tutorResults">Austin!</div>
+        Learn more about him <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="zoeResults" class="dontshow">
+        <em>The tutor you are most similar to is</em> &hellip;
+        <div class="tutorResults">Zoe!</div>
+        Learn more about her <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="jiyaResults" class="dontshow">
+        <em>The tutor you are most similar to is</em> &hellip;
+        <div class="tutorResults">Jiya!</div>
+        Learn more about her <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="ayushAustinResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Ayush and Austin!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="ayushZoeResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Ayush and Zoe!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="ayushJiyaResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Ayush and Jiya!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="austinZoeResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Austin and Zoe!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="austinJiyaResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Austin and Jiya!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="zoeJiyaResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">Zoe and Jiya!</div>
+        Learn more about them <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
+    <div id="tieResults" class="dontshow">
+        <em>The tutors you are most similar to are</em> &hellip;
+        <div class="tutorResults">It's a tie!</div>
+        Check out all of our tutors <a class="tutorLink" href="activeTutors.html">here</a>.
+    </div>
+
 
     <h4>This quiz is currently being developed in Javascript</h4>
 
