@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SAT&reg; Math Section Overview</title>
     <link rel="stylesheet" href="educateStyle.css">
+    <link rel="stylesheet" href="mathStyle.css">
+    <script src="mathScript.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
     </style>
@@ -73,6 +75,30 @@
     <p>Additionally, both sections will have multiple choice and fill-in responses. You will answer fill in responses using a grid like this one:</p>
 
     <img id="mathGrid" src="Images/mathGrid.png" alt="Math grid-in sheet">
+
+    <h2>Try Some Questions!</h2>
+
+    <div id="expand" class="question">
+        <strong>Heart of Algebra Question &darr;</strong>
+        <div class="dontshow" id="1"><img id="algebraQuestion" src="Images/algebraQuestion.jpg" alt="question from SAT math section"></div>
+        <div class="dontshow" id="2"><em>Source: SAT Test Specifications</em></div>
+    </div>
+
+    <div class="dontshow" id="3">
+        <div class="answerChoice"><img class="answerImage" id="algebraA" src="Images/algebraAnswerA.jpg" alt="Answer Choice A"></div>
+        <div class="answerChoice"><img class="answerImage" id="algebraB" src="Images/algebraAnswerB.jpg" alt="Answer Choice B"></div>
+        <div class="answerChoice"><img class="answerImage" id="algebraC" src="Images/algebraAnswerC.jpg" alt="Answer Choice C"></div>
+        <div class="answerChoice"><img class="answerImage" id="algebraD" src="Images/algebraAnswerD.jpg" alt="Answer Choice D"></div>
+    </div>
+
+    <div id="correctAnswer" class="dontshow">
+        <div>Correct!</div>
+    </div>
+
+    <div id="incorrectAnswer" class="dontshow">
+        <div id="answerMessage">This is not the correct answer. Try again!</div>
+        <div class="exit">[ EXIT ]</div>
+    </div>
 
     <div class="nextPage">
         <div><a href="mathTips.html">Next: Math Section Tips --></a></div>

@@ -198,6 +198,92 @@ function onClickOff () {
     correct.classList.add("dontshow");
 }
 
+
+/*******************Organization Question******************/
+
+/*make question and answer choices appear*/
+
+expandQuestion3 = document.getElementById("expand3");
+expandQuestion3.addEventListener("click", expandClick3);
+
+expando1 = document.getElementById("o1");
+expando2 = document.getElementById("o2");
+expando3 = document.getElementById("o3");
+expando4 = document.getElementById("o4");
+
+function expandClick3() {
+    expando1.classList.toggle("dontshow");
+    expando1.classList.toggle("questionImage");
+    expando2.classList.toggle("dontshow");
+    expando3.classList.toggle("dontshow");
+    expando3.classList.toggle("questionCredit");
+    expando4.classList.toggle("dontshow");
+    expando4.classList.toggle("answer")
+} 
+
+/*make answer responses appear*/
+
+incorrect3a = document.getElementById("incorrectAnswer3a");
+incorrect3c = document.getElementById("incorrectAnswer3c");
+incorrect3d = document.getElementById("incorrectAnswer3d")
+correct3 = document.getElementById("correctAnswer3")
+
+function onClickIncorrect3a() {
+    incorrect3a.classList.remove("dontshow");
+    incorrect3a.classList.add("answer");
+    incorrect3a.style.backgroundColor = "#3b3c6e";
+}
+
+function onClickIncorrect3c() {
+    incorrect3c.classList.remove("dontshow");
+    incorrect3c.classList.add("answer");
+    incorrect3c.style.backgroundColor = "#3b3c6e";
+}
+
+function onClickIncorrect3d() {
+    incorrect3d.classList.remove("dontshow");
+    incorrect3d.classList.add("answer");
+    incorrect3d.style.backgroundColor = "#3b3c6e";
+}
+
+function onClickCorrect3() {
+    correct3.classList.remove("dontshow");
+    correct3.classList.add("answer");
+    correct3.style.backgroundColor = "#3b3c6e"
+}
+
+choiceoA = document.getElementById("organizationA");
+choiceoA.addEventListener("click", onClickIncorrect3a);
+
+choiceoB = document.getElementById("organizationB");
+choiceoB.addEventListener("click", onClickCorrect3);
+
+choiceoC = document.getElementById("organizationC");
+choiceoC.addEventListener("click", onClickIncorrect3c);
+
+choiceoD = document.getElementById("organizationD");
+choiceoD.addEventListener("click", onClickIncorrect3d);
+
+incorrect3a.addEventListener("click", onClickOff3)
+incorrect3c.addEventListener("click", onClickOff3)
+incorrect3d.addEventListener("click", onClickOff3)
+correct3.addEventListener("click", onClickOff3)
+
+function onClickOff3 () {
+    incorrect3a.classList.remove("answer");
+    incorrect3a.classList.add("dontshow");
+    
+    incorrect3c.classList.remove("answer");
+    incorrect3c.classList.add("dontshow");
+
+    incorrect3d.classList.remove("answer");
+    incorrect3d.classList.add("dontshow");
+
+    correct3.classList.remove("answer");
+    correct3.classList.add("dontshow");
+}
+
+
 /**************Sentence Structure Question******************/
 
 /*make question and answer choices appear*/

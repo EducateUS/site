@@ -1,0 +1,11 @@
+.dontshow{
+    display:none
+}
+
+h2{
+    margin-top: 15%
+}
+
+div#expand, img.answerImage, div.exit{
+    cursor:pointer
+}

@@ -10,9 +10,16 @@ li#hidden, li#hidden2, li#hidden3, li#hidden4, li#hidden5, li#hidden6{
 
 li#hidden:hover, li#hidden2:hover, li#hidden3:hover, li#hidden4:hover, li#hidden5:hover, li#hidden6:hover{
     font-weight:bold;
+    cursor: pointer
 }
 
 h2{
     margin-top: 15%
 }
+
+div#expand, div#expand2, div#expand3, img.answerImage, img.answerImage2, img.answerImage3, div.exit{
+    cursor:pointer
+}
+
+
 

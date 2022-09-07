@@ -359,7 +359,7 @@ div.question {
     border: 2px solid #3b3c6e
 }
 
-img#developmentQuestion, img#sentenceStructureQuestion {
+img#developmentQuestion, img#sentenceStructureQuestion, img#organizationQuestion, img#algebraQuestion {
     width:80%;
     display:block;
     margin-left: auto;
@@ -411,6 +411,14 @@ div.exit:hover{
 img.answerImage2{
     width:150px;
     margin: 3%;
+    border: 2px solid #3b3c6e;
+    border-radius: 3px
+}
+
+img.answerImage3{
+    width:150px;
+    height: 25px;
+    margin:3%;
     border: 2px solid #3b3c6e;
     border-radius: 3px
 }
