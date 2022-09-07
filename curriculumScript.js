@@ -1,14 +1,15 @@
+//Link with the expand buttons and the close button
 button1 = document.getElementById("math1");
 button2 = document.getElementById("math2");
 button8 = document.getElementById("math8");
 buttonX = document.getElementById("close");
 
+// Gets the large PDFS (currently hidden)
 pdf1 = document.getElementById("big1");
 pdf2 = document.getElementById("big2");
 pdf8 = document.getElementById("big8");
 
-
-
+//adds event listeners to each button
 button1.addEventListener("click", expand1);
 button2.addEventListener("click", expand2);
 button8.addEventListener("click", expand8);
