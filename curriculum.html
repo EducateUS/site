@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="educateStyle.css">
-
+    <script src="curriculumScript.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Patrick+Hand&family=Poppins:wght@400;700;800;900&display=swap');
     </style>
+
 </head>
 
 <body>
@@ -20,7 +21,6 @@
 
     <header class="navbar">
         <div><a class="roomLink" href="activeTutors.html">Active Tutors</a>
-            <div class="dropDownItem"><a href="transportInfo.html">Transportation</a></div>
             <div class="dropDownItem"><a href="curriculum.html">curriculum</a></div>
         </div>
         <div><a class="roomLink" href="students.html">Students</a>
@@ -30,8 +30,32 @@
         </div>
     </header>
 
-    <p class="generalInfo">
-    </p>
+    <h4>Math 2 curriculum</h4>
+    <button id="math2" class="expand">expand PDF</button>
+    <iframe class="pdf" src="math-2.pdf"></iframe>
+    <div id="big2div">
+        <iframe id="big2" class="dontShow" src="math-2.pdf"></iframe>
+    </div>
+
+    <h4>Math 1 curriculum</h4>
+    <button id="math1" class="expand">expand PDF</button>
+    <iframe class="pdf" src="math-1.pdf"></iframe>
+    <div id="big1div">
+        <iframe id="big1" class="dontShow" src="math-1.pdf"></iframe>
+    </div>
+
+    <h4>8th grade math curriculum</h4>
+    <button id="math8" class="expand">expand PDF</button>
+    <iframe class="pdf" src="math-8th.pdf"></iframe>
+    <div id="big8div">
+        <iframe id="big8" class="dontShow" src="math-8th.pdf"></iframe>
+    </div>
+
+    <div id="exit">
+        <button id="close" class="dontShow">(X)</button>
+    </div>
+
+
 
 
 
