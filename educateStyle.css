@@ -195,12 +195,12 @@ a.floorLink:link, a.floortlink:hover, a.floorlink:active, a.floorlink:visited{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: xx-large;
-    width:45%;
+    width:25%;
     text-align: center;
     border-radius: 10px;
     position: relative;
-    padding-top: 7.5vw;
-    padding-bottom: 7.5vw;
+    padding-top: 4.5vw;
+    padding-bottom: 4.5vw;
     text-decoration: none;
 }
 
