@@ -85,6 +85,16 @@ section#satIntro {
 
 }
 
+img#scroll {
+    width: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 49%
+}
+
 
 
 /* div#nav1 {
