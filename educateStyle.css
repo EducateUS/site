@@ -137,6 +137,7 @@ header.navbar{
     font-size: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+    transition-property: padding;
 }
 
 header.navbar div.dropDownItem a{
@@ -147,6 +148,7 @@ header.navbar div.dropDownItem a{
     /*width:fit-content; */
     padding-top:0.5vh;
     /*height: fit-content;*/
+    
 
 }
 

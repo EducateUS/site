@@ -3,7 +3,8 @@ div.tutorResults {
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    margin-top: 3%
+    margin-top: 3%;
+    display: block;
 }
 
 a.tutorLink {
@@ -11,5 +12,5 @@ a.tutorLink {
 }
 
 .dontshow{
-    display:none;
+    display:none; 
 }

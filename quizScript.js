@@ -22,16 +22,19 @@ tieResults = document.getElementById("tieResults");
 submitQuiz = document.getElementById("submitQuiz");
 submitQuiz.addEventListener("click", endQuiz);
 
+
 function endQuiz(){
     var ayushscore = 0;
     var austinscore = 0;
     var zoescore = 0;
     var austinscore = 0;
+    var randomScore=0;
 
     var ayushtop = false;
     var austintop = false;
     var zoetop = false;
     var jiyatop = false;
+    var somethingBroke= false;
     
     if(document.getElementById("blackcolor").checked){
         ayushscore += 1;
@@ -46,6 +49,7 @@ function endQuiz(){
         zoescore += 1;
     }
     else {
+        randomScore += 1;
     }
 
     if(document.getElementById("chickenfood").checked){
@@ -61,6 +65,7 @@ function endQuiz(){
         zoescore += 1;
     }
     else {
+        randomScore+=1;
     }
 
     if(document.getElementById("sciencesubject").checked){
@@ -76,6 +81,7 @@ function endQuiz(){
         zoescore += 1;
     }
     else {
+        randomScore+=1;
     }
 
     if(document.getElementById("historicalbook").checked){
@@ -91,6 +97,7 @@ function endQuiz(){
         zoescore += 1;
     }
     else {
+        randomScore+=1;
     }
 
     if ((ayushscore != 0) && (ayushscore >= austinscore) && (ayushscore >= jiyacore) && (ayushscore >= zoescore)) {
@@ -105,7 +112,8 @@ function endQuiz(){
     if ((jiyascore != 0) && (jiyascore >= ayushscore) && (jiyascore >= ayushscore) && (jiyascore >= zoescore)) {
         jiyatop = true;
     }
-    else {
+    if ((jiyascore ==0) && (ayushscore==0) && (austinscore==0) && (zoescore==0)) {
+        somethingBroke = true;
     }
 
     if(ayushtop && !austintop && !zoetop && !jiyatop) {
@@ -141,7 +149,6 @@ function endQuiz(){
     else if(zoetop && jiyatop && !austintop && !ayushtop) {
         zoeJiyaResults.classList.remove("dontshow");
     }
-
     else {
         tieResults.classList.remove("dontshow");
     }   
