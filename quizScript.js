@@ -26,7 +26,7 @@ function endQuiz(){
     var ayushscore = 0;
     var austinscore = 0;
     var zoescore = 0;
-    var austinscore = 0;
+    var jiyascore = 0;
 
     var ayushtop = false;
     var austintop = false;
