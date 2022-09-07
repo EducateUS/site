@@ -559,6 +559,13 @@ button.close {
         padding: 10%;
     }
 
+    a.floorLink:link, a.floortlink:hover, a.floorlink:active, a.floorlink:visited{
+        width: fit-content;
+        padding-left: 10%;
+        padding-right: 10%
+    }
+
+
 }
 
 @media screen and (orientation: portrait) and (max-width:850px) {

@@ -6,6 +6,15 @@ h2{
     margin-top: 15%
 }
 
+li{
+    color:#B22234;
+    font-weight:bold
+}
+
 div#expand, img.answerImage, div.exit{
     cursor:pointer
+}
+
+img#mathReference, img#mathGrid {
+    border-color:#3c3b6e
 }
