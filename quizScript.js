@@ -93,7 +93,7 @@ function endQuiz(){
     else {
     }
 
-    if ((ayushscore != 0) && (ayushscore >= austinscore) && (ayushscore >= jiyacore) && (ayushscore >= zoescore)) {
+    if ((ayushscore != 0) && (ayushscore >= austinscore) && (ayushscore >= jiyascore) && (ayushscore >= zoescore)) {
         ayushtop = true;
     }
     if ((austinscore != 0) && (austinscore >= ayushscore) && (austinscore >= jiyascore) && (ayushscore >= zoescore)) {
