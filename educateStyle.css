@@ -245,6 +245,10 @@ div.nextPage a{
     font-weight: bold;
 }
 
+a#registrationForm{
+    color:slategray;
+}
+
 
 /********************************** IMAGES ***************************/
 
