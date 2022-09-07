@@ -9,17 +9,17 @@ body {
 
 /**************************************** HOME PAGE *****************************/
 h1.mainTitle {
-    background-color: darkgray;
+    background-color:#3b3c6e; /* was dargray */
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
-    color:black;
+    color: gainsboro; /*was black */
     margin-top:0%;
     padding-top:2.5%;
     padding-bottom:2.5%;
     font-size:xx-large;
-    position: absolute;
-    top:0;
+    position: fixed;
+    top: 6vh;
     left:0;
     width:100%;
     /*font-weight: 400;*/
@@ -56,6 +56,10 @@ section.fancyThing {
     align-items: center;
     color: gainsboro;
 
+}
+
+section.fancyThing * {
+    margin: 4%;
 }
 
 section#tutorIntro {
@@ -548,9 +552,17 @@ p.attribution{
     width:60vw;
 }
 
-img#flyer {
+img#group1 {
     width: 60vw;
     height: auto;
+}
+
+
+section.fancyThing {
+    flex-direction: column-reverse;
+    height: 60vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 }
