@@ -96,13 +96,13 @@ function endQuiz(){
     if ((ayushscore != 0) && (ayushscore >= austinscore) && (ayushscore >= jiyascore) && (ayushscore >= zoescore)) {
         ayushtop = true;
     }
-    if ((austinscore != 0) && (austinscore >= ayushscore) && (austinscore >= jiyascore) && (ayushscore >= zoescore)) {
+    if ((austinscore != 0) && (austinscore >= ayushscore) && (austinscore >= jiyascore) && (austinscore >= zoescore)) {
         austintop = true;
     }
-    if ((zoescore != 0) && (zoescore >= ayushascore) && (zoescore >= austinscore) && (zoescore >= jiyascore)) {
+    if ((zoescore != 0) && (zoescore >= ayushscore) && (zoescore >= austinscore) && (zoescore >= jiyascore)) {
         zoetop = true;
     }
-    if ((jiyascore != 0) && (jiyascore >= ayushscore) && (jiyascore >= ayushscore) && (jiyascore >= zoescore)) {
+    if ((jiyascore != 0) && (jiyascore >= ayushscore) && (jiyascore >= austinscore) && (jiyascore >= zoescore)) {
         jiyatop = true;
     }
     else {
