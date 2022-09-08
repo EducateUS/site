@@ -94,12 +94,12 @@ img.scroll {
     bottom: 4vw;
 }
 img#scroll2 {
-    bottom: 15vw;
+    bottom: 10vw;
     filter: invert();
 }
 
 div#insta {
-    display: flex;;
+    display: flex;
     justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
