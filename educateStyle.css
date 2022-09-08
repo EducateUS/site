@@ -85,7 +85,7 @@ section#satIntro {
 
 }
 
-img#scroll {
+img.scroll {
     width: 25px;
     display: block;
     margin-left: auto;
@@ -93,8 +93,18 @@ img#scroll {
     position: relative;
     bottom: 4vw;
 }
+img#scroll2 {
+    bottom: 15vw;
+    filter: invert();
+}
 
-
+div#insta {
+    display: flex;;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
 
 /* div#nav1 {
     display: flex;
@@ -536,6 +546,8 @@ button.close {
     display: block;
 }
 
+/********************* INSTAGRAM ********************/
+
 
 
 /****************** RESPONSIVE WEB DESIGN ********************/
@@ -597,9 +609,12 @@ section.fancyThing {
     margin-left: 10%;
     margin-right: 10%;
 }
-
+div#insta {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
+}
 
 
 /*{
