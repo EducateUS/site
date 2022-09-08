@@ -90,9 +90,8 @@ img#scroll {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    bottom: 10px;
-    left: 49%
+    position: relative;
+    bottom: 4vw;
 }
 
 
